@@ -283,3 +283,15 @@ The licensing and redistribution status of the source material and collected dat
 ## Acknowledgments
 
 This research uses Python-based tools for data collection and text processing, along with the OpenAI API for synthetic abstract generation and paraphrasing.
+
+## Project Workflow
+
+| Stage | Script | Description |
+|---|---|---|
+| 1. Article Link Collection | `scripts/01_collect_article_links.py` | Collects article URLs from search result pages. |
+| 2. Metadata Extraction | `scripts/02_extract_article_metadata.py` | Extracts article titles, authors, journal names, publication dates, and abstracts. |
+| 3. Synthetic Abstract Generation | `scripts/03_generate_synthetic_abstracts.py` | Generates academic abstracts from article titles using GPT-3.5. |
+| 4. Abstract Paraphrasing | `scripts/04_paraphrase_abstracts.py` | Generates paraphrased versions of existing abstracts using GPT-3.5. |
+
+The scripts document the initial data collection and text-generation stages of the research pipeline.
+
