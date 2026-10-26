@@ -304,3 +304,26 @@ The extracted features included word and sentence counts, average word length, s
 Exploratory data analysis was then performed to compare feature distributions across the three text categories. This stage included descriptive statistics, boxplots, Kruskal–Wallis tests, correlation analysis, word frequency comparisons, and word cloud visualization.
 
 The processed dataset, statistical summaries, and visualizations were saved for further analysis.
+
+## Complexity, Readability, and Linguistic Analysis
+
+### 1. Complexity and Readability Visualization
+
+Visualizations were generated to compare stylistic complexity and readability features across human-written, GPT-3.5-generated, and paraphrased scientific abstracts. The analysis included boxplots of average word length and syllable counts, histograms of average word length, and scatter plots examining the relationships between Type-Token Ratio (TTR), Flesch Reading Ease, average word length, and Flesch–Kincaid Grade Level.
+
+The plots were saved for further inspection and comparison of feature distributions across the three text categories.
+
+### 2. Vocabulary Difficulty Analysis
+
+A vocabulary difficulty analysis was implemented to compare word-level complexity across the three text categories. The script estimates the distribution of simple, medium, and difficult vocabulary using syllable-related features and generates a bar chart to visualize the results.
+
+**Note:** This implementation uses the average number of syllables per word in each abstract to approximate vocabulary difficulty. It does not count individual words by their actual syllable counts; therefore, the resulting categories should be interpreted as rough estimates rather than accurate word-level measurements.
+
+### 3. Part-of-Speech (POS) Tagging Analysis
+
+Part-of-speech tagging was performed using the spaCy English language model to examine grammatical patterns in human-written, GPT-3.5-generated, and paraphrased abstracts.
+
+The script calculates the percentage of nouns, verbs, and adjectives among the processed tokens for each text category. The results are visualized in a bar chart to facilitate comparison of grammatical composition across the three groups.
+
+The generated visualizations were saved for subsequent linguistic analysis.
+
