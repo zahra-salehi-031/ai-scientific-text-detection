@@ -295,3 +295,7 @@ This research uses Python-based tools for data collection and text processing, a
 
 The scripts document the initial data collection and text-generation stages of the research pipeline.
 
+## Data Preprocessing and Cleaning
+
+After data collection, the dataset was processed and cleaned to prepare it for subsequent analysis and machine learning experiments. This stage included handling missing data, preparing the text data, and extracting relevant linguistic features for further analysis.
+
