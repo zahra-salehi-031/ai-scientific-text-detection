@@ -295,7 +295,12 @@ This research uses Python-based tools for data collection and text processing, a
 
 The scripts document the initial data collection and text-generation stages of the research pipeline.
 
-## Data Preprocessing and Cleaning
+## Stylometric Feature Extraction and Exploratory Data Analysis
 
-After data collection, the dataset was processed and cleaned to prepare it for subsequent analysis and machine learning experiments. This stage included handling missing data, preparing the text data, and extracting relevant linguistic features for further analysis.
+After collecting and preparing the dataset, linguistic and readability-related features were extracted from human-written, GPT-3.5-generated, and paraphrased scientific abstracts.
 
+The extracted features included word and sentence counts, average word length, syllable statistics, Type-Token Ratio (TTR), punctuation counts, and five readability indices: Flesch Reading Ease, Flesch–Kincaid Grade Level, SMOG, Coleman–Liau Index, and Automated Readability Index (ARI).
+
+Exploratory data analysis was then performed to compare feature distributions across the three text categories. This stage included descriptive statistics, boxplots, Kruskal–Wallis tests, correlation analysis, word frequency comparisons, and word cloud visualization.
+
+The processed dataset, statistical summaries, and visualizations were saved for further analysis.
